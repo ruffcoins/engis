@@ -1,10 +1,9 @@
 "use client";
-import {socialMediaData} from "@/data/data";
 import useTitle from "@/hooks/useTitle";
-import {EnvelopeSimpleOpen, Phone, User} from "phosphor-react";
+import { EnvelopeSimpleOpen, Phone } from "phosphor-react";
 
 const Contact = () => {
-  useTitle("Contact Us | RealStatic");
+  useTitle("Contact Us | ENGIS");
   return (
     <section className="contact">
       <div className="container">
@@ -13,9 +12,11 @@ const Contact = () => {
             <div className="contact-title text-center">
               <h1>Get In Touch</h1>
               <p>
-                On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
-                demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the
-                pain and trouble.
+                Experience seamless land and property transactions with our
+                state-of-the-art GIS technology. Our team of experts is ready to
+                assist you every step of the way. Reach out to us today for
+                efficient and transparent communication. Let's empower
+                development together!
               </p>
             </div>
           </div>
@@ -23,88 +24,28 @@ const Contact = () => {
         <div className="row">
           <div className="col-12">
             <div className="contact-form">
-              <div className="contact-form-layout">
-                <h4>Send Message</h4>
-                <form className="contact-form-items">
-                  <div className="input-group">
-                    <span className="input-group-text">
-                      <User size={20} />
-                    </span>
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Full Name"
-                    />
-                  </div>
-                  <div className="input-group">
-                    <span className="input-group-text">
-                      <EnvelopeSimpleOpen size={20} />
-                    </span>
-                    <input
-                      type="email"
-                      className="form-control"
-                      placeholder="Email Address"
-                    />
-                  </div>
-                  <div className="input-group">
-                    <span className="input-group-text">
-                      <Phone size={20} />
-                    </span>
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Phone Number"
-                    />
-                  </div>
-                  <div className="input-group">
-                    <textarea
-                      className="form-control"
-                      placeholder="Message"
-                      rows={15}
-                      cols={20}
-                      defaultValue={""}
-                    />
-                  </div>
-                  <div className="w-100 contact-form-button">
-                    <button
-                      type="submit"
-                      className="btn btn-large"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </form>
-              </div>
               <div className="contact-form-address">
                 <h6>Office Address</h6>
-                <p>1421 San Pedro St, Los Angeles, CA 90015</p>
+                <p>
+                  CGW9+XRF, Independence Layout, <br />
+                  Enugu 400102, Enugu
+                </p>
+
                 <a
-                  href="tel:+05656565656"
+                  href="tel:+2349030000000"
                   className="phone d-flex align-items-center"
                 >
                   <Phone size={24} />
-                  <span>(302) 555-0107</span>
+                  <span>+234 903 000 0000</span>
                 </a>
+
                 <a
-                  href="mailto:staticmania@gmail.com"
+                  href="mailto:enquiries@engis.com.ng"
                   className="mail d-flex align-items-center"
                 >
                   <EnvelopeSimpleOpen size={20} />
-                  <span>staticmania@gmail.com</span>
+                  <span>enquiries@engis.com.ng</span>
                 </a>
-                <div className="contact-social">
-                  <h6>Socila Links</h6>
-                  <ul className="list-unstyled list-inline">
-                    {socialMediaData.map((media) => (
-                      <li
-                        key={media.id}
-                        className="list-inline-item"
-                      >
-                        <a href="#">{media.icon}</a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,4 @@
 "use client";
-import { socialMediaData } from "@/data/data";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useEffect } from "react";
@@ -34,15 +32,6 @@ const Footer = () => {
                     </a>
                   </p>
                 </div>
-                {/* <div className="footer-social">
-                  <ul className="list-unstyled list-inline">
-                    {socialMediaData.map((media) => (
-                      <li key={media.id} className="list-inline-item">
-                        <Link href={media.path}>{media.icon}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div> */}
               </div>
             </div>
             <div className="col-xl-2">
@@ -307,63 +296,6 @@ const Footer = () => {
                     </ul>
                   </div>
                 </div>
-                {/* <div className="col">
-                  <div className="footer-widget">
-                    <h5>Others</h5>
-                    <ul className="list-unstyled">
-                      <li>
-                        <a
-                          data-bs-toggle="modal"
-                          href="#login"
-                          role="button"
-                          className="footer-link"
-                        >
-                          Log In
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          data-bs-toggle="modal"
-                          href="#otp"
-                          role="button"
-                          className="footer-link"
-                        >
-                          Enter OTP
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          data-bs-toggle="modal"
-                          href="#newPassword"
-                          role="button"
-                          className="footer-link"
-                        >
-                          New password
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          data-bs-toggle="modal"
-                          href="#resetPassword"
-                          role="button"
-                          className="footer-link"
-                        >
-                          Reset password
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          data-bs-toggle="modal"
-                          href="#createAccount"
-                          role="button"
-                          className="footer-link"
-                        >
-                          Create Account
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div className="col-12">
@@ -382,15 +314,6 @@ const Footer = () => {
                     </a>
                   </p>
                 </div>
-                {/* <div className="footer-social">
-                  <ul className="list-unstyled list-inline">
-                    {socialMediaData.map((media) => (
-                      <li key={media.id} className="list-inline-item">
-                        <a href={media.path}>{media.icon}</a>
-                      </li>
-                    ))}
-                  </ul>
-                </div> */}
               </div>
             </div>
           </div>
