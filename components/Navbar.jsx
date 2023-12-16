@@ -50,7 +50,11 @@ const Navbar = () => {
             </span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className="collapse navbar-collapse"
+            style={{ flexGrow: 0 }}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {menuData.map((item) => {
                 return (
