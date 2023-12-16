@@ -15,7 +15,7 @@ const Contact = () => {
                 Experience seamless land and property transactions with our
                 state-of-the-art GIS technology. Our team of experts is ready to
                 assist you every step of the way. Reach out to us today for
-                efficient and transparent communication. Let's empower
+                efficient and transparent communication. Let&rsquo;s empower
                 development together!
               </p>
             </div>
