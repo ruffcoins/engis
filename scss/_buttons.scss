@@ -90,14 +90,15 @@
     }
 
     &:hover {
-      color: $color-white;
+        color: $color-primary;
 
       span {
-        color: $color-white;
+        color: $color-primary;
+        
       }
 
       &::after {
-        background-color: $color-brown;
+        background-color: $color-light;
       }
     }
   }

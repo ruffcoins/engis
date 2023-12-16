@@ -35,10 +35,10 @@ export default function Home() {
       <Hero />
       <WorkArea />
       <Counter />
-      <PropertiesArea />
+      {/* <PropertiesArea /> */}
       <Feature />
-      <Testimonial />
-      <BlogArea />
+      {/* <Testimonial /> */}
+      {/* <BlogArea /> */}
     </>
   );
 }
