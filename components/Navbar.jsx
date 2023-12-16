@@ -1,15 +1,8 @@
 "use client";
 import { menuData } from "@/data/data";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
-import {
-  Phone,
-  MagnifyingGlass,
-  CaretDown,
-  List,
-  XCircle,
-} from "phosphor-react";
+import { CaretDown, List, XCircle } from "phosphor-react";
 
 const Navbar = () => {
   useEffect(() => {
@@ -36,49 +29,10 @@ const Navbar = () => {
         <div className="container-fluid navbar-container">
           <div className="d-flex align-items-center">
             <Link className="navbar-brand" href="/">
-              <Image
-                src="/images/logo.svg"
-                alt="logo"
-                height={35}
-                width={129}
-              />
+              <h1>ENGIS</h1>
             </Link>
-            <a href="tel:2329872 " className="navbar-number align-items-center">
-              <svg
-                width={6}
-                height={7}
-                viewBox="0 0 6 7"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx={3} cy="3.5" r={3} fill="#417086" />
-              </svg>
-              <Phone size={24} weight="bold" />
-              (546) 232 - 9872
-            </a>
           </div>
-          <div className=" d-none d-sm-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last">
-            <ul className="list-unstyled m-0">
-              <li className="nav-item ">
-                <Link
-                  className="nav-link nav-search-link d-flex align-items-center"
-                  href="/search"
-                >
-                  <MagnifyingGlass size={20} />
-                  Search
-                </Link>
-              </li>
-            </ul>
 
-            <a
-              className="btn btn-small btn-outline d-none d-lg-inline-block"
-              data-bs-toggle="modal"
-              href="#login"
-              role="button"
-            >
-              Log In
-            </a>
-          </div>
           <button
             className="navbar-toggler collapsed"
             type="button"
@@ -90,11 +44,9 @@ const Navbar = () => {
           >
             <span className="open">
               <List size={28} color="#1C4456" className="me-1" />
-              Menu
             </span>
             <span className="close">
               <XCircle size={28} color="#1C4456" className="me-1" />
-              Close
             </span>
           </button>
 
@@ -189,7 +141,7 @@ const Navbar = () => {
                 );
               })}
 
-              <li className="nav-item d-none d-sm-inline-block d-lg-none">
+              <li className="nav-item d-none d-sm-none d-lg-none">
                 <a
                   className="btn btn-small btn-outline"
                   data-bs-toggle="modal"
@@ -200,27 +152,6 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <div className="d-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last d-sm-none">
-              <ul className="list-unstyled m-0 search-dropdown">
-                <li className="nav-item ">
-                  <Link
-                    className="nav-link nav-search-link d-flex align-items-center"
-                    href="/search"
-                  >
-                    <MagnifyingGlass size={20} />
-                    Search
-                  </Link>
-                </li>
-              </ul>
-              <a
-                className="btn btn-small btn-outline"
-                data-bs-toggle="modal"
-                href="#login"
-                role="button"
-              >
-                Log In
-              </a>
-            </div>
           </div>
         </div>
       </nav>

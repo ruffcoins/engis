@@ -15,19 +15,7 @@ export const menuData = [
   {
     id: 1,
     parent: "Home",
-    megamenu: false,
-    children: [
-      {
-        id: 1.1,
-        parent: "Home Page 1",
-        link: "/",
-      },
-      {
-        id: 1.2,
-        parent: "Home Page 2",
-        link: "/homepage2",
-      },
-    ],
+    link: "/",
   },
   {
     id: 2,
@@ -36,87 +24,13 @@ export const menuData = [
   },
   {
     id: 3,
-    parent: "Listings",
-    link: "/property",
+    parent: "Services",
+    link: "/services",
   },
   {
     id: 4,
-    parent: "Agents",
-    megamenu: false,
-    children: [
-      {
-        id: 4.1,
-        parent: "Agent List",
-        link: "/agent",
-      },
-      {
-        id: 4.2,
-        parent: "Agent Profile",
-        link: "/agent/1",
-      },
-    ],
-  },
-  {
-    id: 5,
-    parent: "Other pages",
-    megamenu: true,
-    children: [
-      {
-        id: 5.1,
-        parent: "Blog",
-        link: "/blogs",
-      },
-      {
-        id: 5.2,
-        parent: "Blog Single",
-        link: "/blogs/10-Delightful-Dining-Room-Decor-Trends-for-Spring",
-      },
-      {
-        id: 5.3,
-        parent: "Contact",
-        link: "/contact",
-      },
-      {
-        id: 5.4,
-        parent: "Privacy Policy",
-        link: "/privacy",
-      },
-      {
-        id: 5.5,
-        parent: "License",
-        link: "/license",
-      },
-      {
-        id: 5.6,
-        parent: "404 Page",
-        link: "/notFound",
-      },
-      {
-        id: 5.7,
-        parent: "Log In",
-        link: "#login",
-      },
-      {
-        id: 5.8,
-        parent: "Enter OTP",
-        link: "#otp",
-      },
-      {
-        id: 5.9,
-        parent: "New Password",
-        link: "#newPassword",
-      },
-      {
-        id: 6.0,
-        parent: "Reset Password",
-        link: "#resetPassword",
-      },
-      {
-        id: 6.1,
-        parent: "Create Account",
-        link: "#createAccount",
-      },
-    ],
+    parent: "Resources",
+    link: "/resources",
   },
 ];
 
@@ -157,10 +71,10 @@ export const counterData = [
 ];
 
 export const propertiesCategory = [
-  {id: 1, title: "Resident Property", category: "residential"},
-  {id: 2, title: "Commercial Property", category: "commercial"},
-  {id: 4, title: "Agriculture Property", category: "agriculture"},
-  {id: 3, title: "Industrial Property", category: "industrial"},
+  { id: 1, title: "Resident Property", category: "residential" },
+  { id: 2, title: "Commercial Property", category: "commercial" },
+  { id: 4, title: "Agriculture Property", category: "agriculture" },
+  { id: 3, title: "Industrial Property", category: "industrial" },
 ];
 
 // PROPERTIES DATA
@@ -349,7 +263,8 @@ export const propertiesData = [
     ],
     monthlyPayment: 850,
     details: {
-      title: "Well-constructed 1562 Sq Ft Home Is Now Offering To You In Uttara For Sale",
+      title:
+        "Well-constructed 1562 Sq Ft Home Is Now Offering To You In Uttara For Sale",
       description:
         "A slider is great way to display a slideshow featuring images or videos, usually on your homepage. Adding sliders to your site is no longer difficult. You don’t have to know coding anymore. Just use a slider widget and it will automatically insert the slider on your web page. So, the Elementor slider would be a great tool to work with when building a WordPress site.",
     },
@@ -578,7 +493,8 @@ export const propertiesData = [
   },
   {
     id: 1,
-    title: "Trovilla Plan in Sereno Canyon - Estate Collection by Toll Brothers",
+    title:
+      "Trovilla Plan in Sereno Canyon - Estate Collection by Toll Brothers",
     location: "2861 62nd Ave, Oakland, CA 94605",
     bed: 3,
     bath: 1,
@@ -596,7 +512,8 @@ export const propertiesData = [
     ],
     monthlyPayment: 850,
     details: {
-      title: "Well-constructed 1562 Sq Ft Home Is Now Offering To You In Uttara For Sale",
+      title:
+        "Well-constructed 1562 Sq Ft Home Is Now Offering To You In Uttara For Sale",
       description:
         "A slider is great way to display a slideshow featuring images or videos, usually on your homepage. Adding sliders to your site is no longer difficult. You don’t have to know coding anymore. Just use a slider widget and it will automatically insert the slider on your web page. So, the Elementor slider would be a great tool to work with when building a WordPress site.",
     },
@@ -835,11 +752,11 @@ export const agentInformationData = [
     license: "BF-05335",
     website: "http://www.staticmania.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     address: "Washington, San Francisco",
     about: [
@@ -861,11 +778,11 @@ export const agentInformationData = [
     website: "http://www.johnsmith.com",
     address: "Washington, San Francisco",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -886,11 +803,11 @@ export const agentInformationData = [
     website: "http://www.emmajohnson.com",
     address: "Florida, San Francisco",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -911,11 +828,11 @@ export const agentInformationData = [
     website: "http://www.sophiaroberts.com",
     address: "Washington, Atlanta",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -936,11 +853,11 @@ export const agentInformationData = [
     license: "BF-06543",
     website: "http://www.olivertaylor.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -961,11 +878,11 @@ export const agentInformationData = [
     address: "Massachusetts, Los Angeles",
     website: "http://www.isabellaclark.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -986,11 +903,11 @@ export const agentInformationData = [
     address: "Illinois, Los Angeles",
     website: "http://www.williamdavis.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -1011,11 +928,11 @@ export const agentInformationData = [
     address: "Illinois, Houston",
     website: "http://www.jamesanderson.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -1036,11 +953,11 @@ export const agentInformationData = [
     address: "Massachusetts, New York",
     website: "http://www.emilywilson.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -1061,11 +978,11 @@ export const agentInformationData = [
     address: "California, Atlanta",
     website: "http://www.michaelthompson.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -1086,11 +1003,11 @@ export const agentInformationData = [
     license: "BF-04321",
     website: "http://www.sophiewalker.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -1111,11 +1028,11 @@ export const agentInformationData = [
     license: "BF-03456",
     website: "http://www.benjaminharris.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -1136,11 +1053,11 @@ export const agentInformationData = [
     license: "BF-06543",
     website: "http://www.charlottelewis.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
@@ -1161,11 +1078,11 @@ export const agentInformationData = [
     license: "BF-04321",
     website: "http://www.josephturner.com",
     socialMedia: [
-      {id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#"},
-      {id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#"},
-      {id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#"},
-      {id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#"},
-      {id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#"},
+      { id: 1, name: "Facebook", icon: <FacebookIcon />, link: "#" },
+      { id: 2, name: "Twitter", icon: <TwitterIcon />, link: "#" },
+      { id: 3, name: "Instagram", icon: <InstagramIcon />, link: "#" },
+      { id: 4, name: "LinkedIn", icon: <LinkedInIcon />, link: "#" },
+      { id: 5, name: "Youtube", icon: <YouTubeIcon />, link: "#" },
     ],
     about: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tincidunt dui, ac hendrerit dolor. Vestibulum imperdiet, turpis vitae porta pharetra, urna nisi commodo ante, non consequat odio sapien non sapien.",
