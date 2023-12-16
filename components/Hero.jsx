@@ -42,7 +42,7 @@ const Hero = () => {
               className="hero-shape"
             >
               <Image
-                src="/images/hero/hero.png"
+                src="/images/hero/hero.jpeg"
                 alt="hero"
                 height={822}
                 width={613}
@@ -58,15 +58,20 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="hero-content">
-                <h1 className="hero-content-title">
-                  Find a perfect property Where you&rsquo;ll love to live
+                <h1 className="hero-content-title" style={{ color: "white" }}>
+                  Pioneering Progress through Spatial Intelligence
                 </h1>
-                <p className="hero-content-description">
-                  We helps businesses customize, automate and scale up their ad
-                  production and delivery.
+                <p
+                  className="hero-content-description"
+                  style={{ color: "white" }}
+                >
+                  Transforming Enugu's Landscape through Geographic Information
+                  Systems
                 </p>
               </div>
-              <div className="hero-form">
+
+              <button className="btn btn-alternate">Learn More</button>
+              {/* <div className="hero-form">
                 <nav>
                   <div className="nav nav-tabs" id="nav-tab" role="tablist">
                     <button
@@ -550,7 +555,7 @@ const Hero = () => {
                     </form>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>
