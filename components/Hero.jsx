@@ -65,8 +65,8 @@ const Hero = () => {
                   className="hero-content-description"
                   style={{ color: "white" }}
                 >
-                  Transforming Enugu's Landscape through Geographic Information
-                  Systems
+                  Transforming Enugu&rsquo;s Landscape through Geographic
+                  Information Systems
                 </p>
               </div>
 
