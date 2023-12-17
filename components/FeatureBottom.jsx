@@ -36,27 +36,15 @@ const FeatureBottom = () => {
       </div>
       <div className="col-md-6 col-lg-5 me-lg-auto ms-xl-auto order-xl-2 order-md-1">
         <div className="feature-content">
-          <h3>Secure payment system</h3>
+          <h3>Find necessary land related resources</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. In a free hour, when our power of choice is untrammelled.
+            Simplify resource discovery and access vital information seamlessly.
+            Our user-friendly interface ensures an efficient and hassle-free
+            experience, empowering you to find all necessary land-related
+            resources with ease and precision.
           </p>
-          <ul className="">
-            <li>
-              <CheckCircle size={20} weight="bold" />
-              <span className="bold">Find excellent deals</span>
-            </li>
-            <li>
-              <CheckCircle size={20} weight="bold" />
-              <span className="bold">Friendly host &amp; Fast support</span>
-            </li>
-            <li>
-              <CheckCircle size={20} weight="bold" />
-              <span className="bold">Secure payment system</span>
-            </li>
-          </ul>
-          <a href="/about" className="btn btn-small">
-            Learn More
+          <a href="/resources" className="btn btn-small">
+            Explore Resources
           </a>
         </div>
       </div>

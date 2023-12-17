@@ -25,7 +25,19 @@ export const menuData = [
   {
     id: 3,
     parent: "Services",
-    link: "/services",
+    megamenu: false,
+    children: [
+      {
+        id: 3.1,
+        parent: "Service 1",
+        link: "/service-one",
+      },
+      {
+        id: 3.2,
+        parent: "Service 2",
+        link: "/service-two",
+      },
+    ],
   },
   {
     id: 4,
@@ -39,34 +51,34 @@ export const counterData = [
   {
     id: 1,
     count: 150,
-    leftIcon: "$",
-    rightIcon: "+",
-    Icon: <DollarIcon />,
-    description: "Owned from <br> Properties transactions",
+    leftIcon: "",
+    rightIcon: "K+",
+    Icon: <LocationIcon />,
+    description: "GIS Layers <br> Uploaded",
   },
   {
     id: 2,
     count: 25,
     leftIcon: "",
     rightIcon: "K+",
-    Icon: <LocationIcon />,
-    description: "Properties for Buy <br> &amp; sell Successfully",
+    Icon: <FireIcon />,
+    description: "Land Registrations <br> Completed",
   },
   {
     id: 3,
     count: 500,
     leftIcon: "",
-    rightIcon: "",
-    Icon: <FireIcon />,
-    description: "Daily completed <br> transactions",
+    rightIcon: "K+",
+    Icon: <DollarIcon />,
+    description: "Daily Completed <br> Transactions",
   },
   {
     id: 4,
-    count: 600,
-    leftIcon: "$",
-    rightIcon: "+",
+    count: 100,
+    leftIcon: "",
+    rightIcon: "K+",
     Icon: <EmojiIcon />,
-    description: "Reagular Clients",
+    description: "Clients Served",
   },
 ];
 

@@ -18,12 +18,11 @@ const AboutHero = () => {
         <div className="row">
           <div className="col-12 col-md-8 col-lg-8 mx-auto">
             <div className="about-content text-center">
-              <h1>Reimagining real estate to make it easier to unlock.</h1>
+              <h1>Harnessing the Power of Data for Informed Decision-Making</h1>
+              {/* <h1>Reimagining real estate to make it easier to unlock.</h1> */}
               <p>
-                On the other hand, we denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment, so blinded by desire, that they cannot
-                foresee the pain and trouble.
+                Unleashing the Power of Geographic Information Systems (GIS) to
+                Understand, Analyze, and Transform the Landscape of Enugu State
               </p>
             </div>
           </div>
@@ -33,7 +32,7 @@ const AboutHero = () => {
             <div className="about-thumbs">
               <div className="about-thumbs-item grid-col-span-2 order-1 order-sm-1">
                 <Image
-                  src="/images/about/about1.png"
+                  src="/images/about/about1.jpg"
                   alt="about"
                   height={400}
                   width={792}
@@ -45,7 +44,7 @@ const AboutHero = () => {
               </div>
               <div className="about-thumbs-item order-3 order-sm-2">
                 <Image
-                  src="/images/about/about2.png"
+                  src="/images/about/about2.jpg"
                   alt="about"
                   height={400}
                   width={384}
@@ -57,7 +56,7 @@ const AboutHero = () => {
               </div>
               <div className="about-thumbs-item order-4 order-sm-3">
                 <Image
-                  src="/images/about/about3.png"
+                  src="/images/about/about3.jpg"
                   alt="about"
                   height={400}
                   width={384}
@@ -69,7 +68,7 @@ const AboutHero = () => {
               </div>
               <div className="about-thumbs-item grid-col-span-2 oreder-2 order-sm-4">
                 <Image
-                  src="/images/about/about4.png"
+                  src="/images/about/about4.jpg"
                   alt="about"
                   height={400}
                   width={792}

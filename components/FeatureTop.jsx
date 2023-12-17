@@ -22,15 +22,15 @@ const FeatureTop = () => {
     >
       <div className="col-lg-6 order-lg-1 order-2">
         <div className="feature-content">
-          <h3>Simple &amp; easy way to find your dream Apartment</h3>
+          <h3>Simple &amp; easy way to register for your land C of O</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. In a free hour, when our power of choice is untrammelled
-            and when nothing prevents our being able to do what we like best,
-            every pleasure is to be welcomed.
+            Simplify the C of O registration process with our user-friendly
+            system. Easy steps, seamless experience. Register effortlessly for
+            your Certificate of Occupancy and navigate the paperwork
+            hassle-free. Your convenience is our priority.
           </p>
           <Link href="/contact" className="btn btn-small">
-            Get Started
+            Register
           </Link>
         </div>
       </div>

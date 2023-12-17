@@ -26,44 +26,50 @@ const Company = () => {
           <div className="col-md-6 order-2 order-md-1">
             <div className="company-history">
               <div className="company-history--header">
-                <h3>
-                  A note from our <br /> founders.
-                </h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. In a free hour,
-                </p>
+                <h3>About ENGIS</h3>
               </div>
               <ol className="company-history--list">
                 <li>
                   <div className="company-history--details">
-                    <h6>It all started in 1995</h6>
+                    {/* <h6>It all started in 1995</h6> */}
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. In a free hour, On the other hand,
-                      we denounce with righteous.
+                      Establish and regulate the standards to be applied in the
+                      compilation of data relating to land and its
+                      administration in the Enugu state.
                     </p>
                   </div>
                 </li>
                 <li>
                   <div className="company-history--details">
-                    <h6> Donate launches in 2007</h6>
+                    {/* <h6>It all started in 1995</h6> */}
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. In a free hour, On the other hand,
-                      we denounce with righteous.
+                      Undertake registration of all land titles and instruments
+                      in the State including but not limited to issuance of
+                      certificates and recertification of land instruments in
+                      cases where certification had been carried out before the
+                      coming into force of this law
                     </p>
                   </div>
                 </li>
                 <li>
                   <div className="company-history--details">
-                    <h6>
+                    {/* <h6> Donate launches in 2007</h6> */}
+                    <p>
+                      Processing and grant of Certificates of Occupancy, Rights
+                      of Occupancy and grants of Consent to land transactions as
+                      required by Law.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="company-history--details">
+                    {/* <h6>
                       RealStatic holds its initial public offering in 2008
-                    </h6>
+                    </h6> */}
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. In a free hour, On the other hand,
-                      we denounce with righteous.
+                      These various titles including C of O&rsquo;s are endorsed
+                      and ratified by the Enugu State Government and provide the
+                      protection of the state to land and property owners.
                     </p>
                   </div>
                 </li>
@@ -114,19 +120,17 @@ const Company = () => {
             <div className="company-vision--content">
               <h3>Our vision is simple.</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. In a free hour, On the other hand, we denounce with
-                righteous indignation and dislike men who are so beguiled and
-                demoralized by the charms of pleasure of the moment.
+                Enugu State GIS is committed to embracing emerging technologies
+                and advancing the field of spatial analysis in administering
+                land and property usage. By leveraging these innovations, we can
+                unlock new insights, improve data accuracy, and provide
+                real-time monitoring of our environment.
                 <br />
                 <br />
-                In a free hour, On the other hand, we denounce with righteous
-                indignation and dislike men .
+                Through interactive maps, visualizations, and analysis tools,
+                users can gain valuable insights into the dynamics of Enugu
+                State.
               </p>
-              <div className="company-vision--content--author">
-                <h6>Jacob Pial</h6>
-                <p>CEO at Staticmania</p>
-              </div>
             </div>
           </div>
         </motion.div>
