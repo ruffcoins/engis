@@ -79,7 +79,7 @@ const Company = () => {
           <div className="col-lg-5 col-md-6  order-1 order-md-2">
             <div className="company-history--thumb">
               <Image
-                src="/images/about/company-history1.png"
+                src="/images/about/company-history1.jpg"
                 alt="company-details1"
                 width={589}
                 height={537}
@@ -105,7 +105,7 @@ const Company = () => {
           <div className="col-md-6 order-lg-1 order-md-2">
             <div className="company-vision--thumb">
               <Image
-                src="/images/about/company-history2.png"
+                src="/images/about/company-history2.jpg"
                 alt="company-details2"
                 width={589}
                 height={537}
