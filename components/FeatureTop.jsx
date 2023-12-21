@@ -34,12 +34,13 @@ const FeatureTop = () => {
           </Link>
         </div>
       </div>
+
       <div className="col-lg-6 order-lg-2 order-1">
         <div className="row">
           <div className="col-6 ">
             <div className="feature-grid-image">
               <Image
-                src="/images/feature/feature1.png"
+                src="/images/feature/feature1.jpg"
                 height={327}
                 width={284}
                 alt="feature1"
@@ -51,7 +52,7 @@ const FeatureTop = () => {
               <Image
                 height={218}
                 width={284}
-                src="/images/feature/feature2.png"
+                src="/images/feature/feature2.jpg"
                 alt="feature2"
                 style={{
                   maxWidth: "100%",
@@ -65,7 +66,7 @@ const FeatureTop = () => {
               <Image
                 height={218}
                 width={284}
-                src="/images/feature/feature3.png"
+                src="/images/feature/feature3.jpg"
                 alt="feature3"
                 style={{
                   maxWidth: "100%",
@@ -75,7 +76,7 @@ const FeatureTop = () => {
               <Image
                 height={327}
                 width={284}
-                src="/images/feature/feature4.png"
+                src="/images/feature/feature4.jpg"
                 alt="feature4"
                 style={{
                   maxWidth: "100%",

@@ -25,7 +25,7 @@ const FeatureBottom = () => {
           <Image
             height={589}
             width={537}
-            src="/images/feature/feature5.png"
+            src="/images/feature/feature5.jpg"
             alt="feature5"
             style={{
               maxWidth: "100%",
