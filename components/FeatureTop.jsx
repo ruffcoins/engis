@@ -29,7 +29,7 @@ const FeatureTop = () => {
             your Certificate of Occupancy and navigate the paperwork
             hassle-free. Your convenience is our priority.
           </p>
-          <Link href="/contact" className="btn btn-small">
+          <Link href="/services/cofo-application" className="btn btn-small">
             Register
           </Link>
         </div>
