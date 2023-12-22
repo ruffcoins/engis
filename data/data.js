@@ -29,7 +29,7 @@ export const menuData = [
     children: [
       {
         id: 3.1,
-        parent: "LUAC Affidavit",
+        parent: "LUAC Affidavit Form",
         link: "/services/luac-affidavit",
       },
       {

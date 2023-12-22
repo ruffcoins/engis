@@ -86,17 +86,7 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <Link href="#" className="footer-link">
-                      Resource 1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="footer-link">
-                      Resource 2
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="footer-link">
-                      Resource 3
+                      Coming Soon...
                     </Link>
                   </li>
                 </ul>
@@ -198,17 +188,7 @@ const Footer = () => {
                     <ul className="list-unstyled">
                       <li>
                         <Link href="#" className="footer-link">
-                          Resource 1
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#" className="footer-link">
-                          Resource 2
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#" className="footer-link">
-                          Resource 3
+                          Coming Soon...
                         </Link>
                       </li>
                     </ul>
@@ -286,17 +266,7 @@ const Footer = () => {
                     <ul className="list-unstyled">
                       <li>
                         <Link href="#" className="footer-link">
-                          Resource 1
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#" className="footer-link">
-                          Resource 2
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#" className="footer-link">
-                          Resource 3
+                          Coming Soon...
                         </Link>
                       </li>
                     </ul>
