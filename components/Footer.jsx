@@ -76,11 +76,7 @@ const Footer = () => {
                       C of O Application
                     </Link>
                   </li>
-                  <li>
-                    <Link href="#" className="footer-link">
-                      Service 3
-                    </Link>
-                  </li>
+                  <li></li>
                 </ul>
               </div>
             </div>
@@ -192,11 +188,7 @@ const Footer = () => {
                           C of O Application
                         </Link>
                       </li>
-                      <li>
-                        <Link href="#" className="footer-link">
-                          Service 3
-                        </Link>
-                      </li>
+                      <li></li>
                     </ul>
                   </div>
                 </div>
@@ -284,11 +276,7 @@ const Footer = () => {
                           C of O Application
                         </Link>
                       </li>
-                      <li>
-                        <Link href="#" className="footer-link">
-                          Service 3
-                        </Link>
-                      </li>
+                      <li></li>
                     </ul>
                   </div>
                 </div>
