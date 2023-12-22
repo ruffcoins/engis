@@ -29,13 +29,13 @@ export const menuData = [
     children: [
       {
         id: 3.1,
-        parent: "Service 1",
-        link: "/service-one",
+        parent: "LUAC Affidavit",
+        link: "/services/luac-affidavit",
       },
       {
         id: 3.2,
-        parent: "Service 2",
-        link: "/service-two",
+        parent: "C of O Application",
+        link: "/services/cofo-application",
       },
     ],
   },

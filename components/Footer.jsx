@@ -61,13 +61,19 @@ const Footer = () => {
                 <h5>Services</h5>
                 <ul className="list-unstyled">
                   <li>
-                    <Link href="#" className="footer-link">
-                      Service 1
+                    <Link
+                      href="/services/luac-affidavit"
+                      className="footer-link"
+                    >
+                      LUAC Affidavit
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="footer-link">
-                      Service 2
+                    <Link
+                      href="/services/cofo-application"
+                      className="footer-link"
+                    >
+                      C of O Application
                     </Link>
                   </li>
                   <li>
@@ -171,13 +177,19 @@ const Footer = () => {
                     <h5>Services</h5>
                     <ul className="list-unstyled">
                       <li>
-                        <Link href="#" className="footer-link">
-                          Service 1
+                        <Link
+                          href="/services/luac-affidavit"
+                          className="footer-link"
+                        >
+                          LUAC Affidavit
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" className="footer-link">
-                          Service 2
+                        <Link
+                          href="/services/cofo-application"
+                          className="footer-link"
+                        >
+                          C of O Application
                         </Link>
                       </li>
                       <li>
@@ -257,13 +269,19 @@ const Footer = () => {
                     <h5>Services</h5>
                     <ul className="list-unstyled">
                       <li>
-                        <Link href="#" className="footer-link">
-                          Service 1
+                        <Link
+                          href="/services/luac-affidavit"
+                          className="footer-link"
+                        >
+                          LUAC Affidavit
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" className="footer-link">
-                          Service 2
+                        <Link
+                          href="/services/cofo-application"
+                          className="footer-link"
+                        >
+                          C of O Application
                         </Link>
                       </li>
                       <li>

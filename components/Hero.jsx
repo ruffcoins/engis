@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -47,7 +48,9 @@ const Hero = () => {
                 </p>
               </div>
 
-              <button className="btn btn-alternate">Learn More</button>
+              <Link href="/about" className="btn btn-alternate">
+                Learn More
+              </Link>
             </motion.div>
           </div>
         </div>
