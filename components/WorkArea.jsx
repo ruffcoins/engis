@@ -33,7 +33,7 @@ const WorkArea = () => {
                 Streamlining land and property transactions for a hassle-free
                 experience
               </p>
-              <Link href="/contact" className="btn btn-small">
+              <Link href="/services/cofo-application" className="btn btn-small">
                 Get Started
               </Link>
             </div>
