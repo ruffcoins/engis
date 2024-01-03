@@ -1,4 +1,4 @@
-// import BlogArea from "@/components/BlogArea";
+// import BlopenGraphArea from "@/components/BlopenGraphArea";
 import Counter from "@/components/Counter";
 import Feature from "@/components/Feature";
 import Hero from "@/components/Hero";
@@ -10,12 +10,12 @@ import Head from "next/head";
 export const metadata = {
   metadataBase: new URL("https://engis.com.ng"),
   title: "ENGIS",
-  description: "Enugu State Geographic Information Services",
+  description: "Enugu State GeopenGraphraphic Information Services",
   openGraph: {
     url: "https://engis.com.ng",
     type: "website",
     title: "ENGIS",
-    description: "Enugu State Geographic Information Services",
+    description: "Enugu State GeopenGraphraphic Information Services",
     image: "/images/social-share.png",
   },
   twitter: {
@@ -23,7 +23,7 @@ export const metadata = {
     domain: "engis.com.ng",
     url: "https://engis.com.ng",
     title: "ENGIS",
-    description: "Enugu State Geographic Information Services",
+    description: "Enugu State GeopenGraphraphic Information Services",
     image: "/images/social-share.png",
   },
 };
@@ -33,11 +33,14 @@ export default function Home() {
     <>
       <Head>
         <title>{metadata.title}</title>
-        <meta property="og:title" content={metadata.og.title} />
-        <meta property="og:description" content={metadata.og.description} />
-        <meta property="og:image" content={metadata.og.image} />
-        <meta property="og:url" content={metadata.og.url} />
-        <meta property="og:type" content={metadata.og.type} />
+        <meta property="openGraph:title" content={metadata.openGraph.title} />
+        <meta
+          property="openGraph:description"
+          content={metadata.openGraph.description}
+        />
+        <meta property="openGraph:image" content={metadata.openGraph.image} />
+        <meta property="openGraph:url" content={metadata.openGraph.url} />
+        <meta property="openGraph:type" content={metadata.openGraph.type} />
         <meta name="twitter:card" content={metadata.twitter.card} />
         <meta name="twitter:domain" content={metadata.twitter.domain} />
         <meta name="twitter:url" content={metadata.twitter.url} />
@@ -55,7 +58,7 @@ export default function Home() {
       {/* <PropertiesArea /> */}
       <Feature />
       {/* <Testimonial /> */}
-      {/* <BlogArea /> */}
+      {/* <BlopenGraphArea /> */}
     </>
   );
 }
