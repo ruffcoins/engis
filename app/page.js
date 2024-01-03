@@ -8,14 +8,15 @@ import WorkArea from "@/components/WorkArea";
 import Head from "next/head";
 
 export const metadata = {
+  metadataBase: new URL("https://engis.com.ng"),
   title: "ENGIS",
   description: "Enugu State Geographic Information Services",
-  og: {
+  openGraph: {
     url: "https://engis.com.ng",
     type: "website",
     title: "ENGIS",
     description: "Enugu State Geographic Information Services",
-    image: "https://engis.com.ng/images/social-share.png",
+    image: "/images/social-share.png",
   },
   twitter: {
     card: "summary_large_image",
@@ -23,7 +24,7 @@ export const metadata = {
     url: "https://engis.com.ng",
     title: "ENGIS",
     description: "Enugu State Geographic Information Services",
-    image: "https://engis.com.ng/images/social-share.png",
+    image: "/images/social-share.png",
   },
 };
 
@@ -45,7 +46,7 @@ export default function Home() {
           name="twitter:description"
           content={metadata.twitter.description}
         />
-        <meta name="twitter:image" content={metadata.twitter.image} />
+        <meta property="twitter:image" content={metadata.twitter.image} />
       </Head>
 
       <Hero />
