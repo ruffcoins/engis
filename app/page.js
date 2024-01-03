@@ -5,10 +5,9 @@ import Hero from "@/components/Hero";
 // import PropertiesArea from "@/components/PropertiesArea";
 // import Testimonial from "@/components/Testimonial";
 import WorkArea from "@/components/WorkArea";
-// import Head from "next/head";
+import Head from "next/head";
 
 export const metadata = {
-  // metadataBase: new URL("https://engis.com.ng"),
   title: "ENGIS",
   description: "Enugu State Geographic Information Services",
   openGraph: {
@@ -31,8 +30,17 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      {/* <Head>
-        <title>{metadata.title}</title>
+      <Head>
+        <meta
+          property="og:image"
+          content="https://engis.com.ng/images/social-share.png"
+        />
+        <meta
+          property="twitter:image"
+          content="https://engis.com.ng/images/social-share.png"
+        />
+
+        {/* <title>{metadata.title}</title>
         <meta property="openGraph:title" content={metadata.openGraph.title} />
         <meta
           property="openGraph:description"
@@ -49,8 +57,8 @@ export default function Home() {
           name="twitter:description"
           content={metadata.twitter.description}
         />
-        <meta property="twitter:image" content={metadata.twitter.image} />
-      </Head> */}
+        <meta property="twitter:image" content={metadata.twitter.image} /> */}
+      </Head>
 
       <Hero />
       <WorkArea />
