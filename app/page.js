@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 // import PropertiesArea from "@/components/PropertiesArea";
 // import Testimonial from "@/components/Testimonial";
 import WorkArea from "@/components/WorkArea";
-import Head from "next/head";
+// import Head from "next/head";
 
 export const metadata = {
   // metadataBase: new URL("https://engis.com.ng"),
