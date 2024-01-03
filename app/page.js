@@ -5,33 +5,49 @@ import Hero from "@/components/Hero";
 // import PropertiesArea from "@/components/PropertiesArea";
 // import Testimonial from "@/components/Testimonial";
 import WorkArea from "@/components/WorkArea";
-
-// <title>Karple</title>
-// <meta name="description" content="Discover the ultimate carpooling experience with Karple! Our user-friendly platform helps you save money, reduce traffic, and make new friends while sharing the ride. Sign up now and join the carpool revolution. #Carpool #RideSharing #Karple">
-
-// <!-- Facebook Meta Tags -->
-// <meta property="og:url" content="https://karple.com">
-// <meta property="og:type" content="website">
-// <meta property="og:title" content="Karple">
-// <meta property="og:description" content="Discover the ultimate carpooling experience with Karple! Our user-friendly platform helps you save money, reduce traffic, and make new friends while sharing the ride. Sign up now and join the carpool revolution. #Carpool #RideSharing #Karple">
-// <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/karple.appspot.com/o/social%2Fsocial-share.jpg?alt=media&token=ee834658-b2b4-45ac-ba21-c961c83992ff">
-
-// <!-- Twitter Meta Tags -->
-// <meta name="twitter:card" content="summary_large_image">
-// <meta property="twitter:domain" content="karple.com">
-// <meta property="twitter:url" content="https://karple.com">
-// <meta name="twitter:title" content="Karple">
-// <meta name="twitter:description" content="Discover the ultimate carpooling experience with Karple! Our user-friendly platform helps you save money, reduce traffic, and make new friends while sharing the ride. Sign up now and join the carpool revolution. #Carpool #RideSharing #Karple">
-// <meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/karple.appspot.com/o/social%2Fsocial-share.jpg?alt=media&token=ee834658-b2b4-45ac-ba21-c961c83992ff">
+import Head from "next/head";
 
 export const metadata = {
   title: "ENGIS",
-  description: "Enugu State Geographic Information System",
+  description: "Enugu State Geographic Information Services",
+  og: {
+    url: "https://engis.com.ng",
+    type: "website",
+    title: "ENGIS",
+    description: "Enugu State Geographic Information Services",
+    image: "https://engis.com.ng/images/social-share.jpg",
+  },
+  twitter: {
+    card: "summary_large_image",
+    domain: "engis.com.ng",
+    url: "https://engis.com.ng",
+    title: "ENGIS",
+    description: "Enugu State Geographic Information Services",
+    image: "https://engis.com.ng/images/social-share.jpg",
+  },
 };
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta property="og:title" content={metadata.og.title} />
+        <meta property="og:description" content={metadata.og.description} />
+        <meta property="og:image" content={metadata.og.image} />
+        <meta property="og:url" content={metadata.og.url} />
+        <meta property="og:type" content={metadata.og.type} />
+        <meta name="twitter:card" content={metadata.twitter.card} />
+        <meta name="twitter:domain" content={metadata.twitter.domain} />
+        <meta name="twitter:url" content={metadata.twitter.url} />
+        <meta name="twitter:title" content={metadata.twitter.title} />
+        <meta
+          name="twitter:description"
+          content={metadata.twitter.description}
+        />
+        <meta name="twitter:image" content={metadata.twitter.image} />
+      </Head>
+
       <Hero />
       <WorkArea />
       <Counter />

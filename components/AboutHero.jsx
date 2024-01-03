@@ -21,7 +21,7 @@ const AboutHero = () => {
               <h1>Harnessing the Power of Data for Informed Decision-Making</h1>
               {/* <h1>Reimagining real estate to make it easier to unlock.</h1> */}
               <p>
-                Unleashing the Power of Geographic Information Systems (GIS) to
+                Unleashing the Power of Geographic Information Services (GIS) to
                 Understand, Analyze, and Transform the Landscape of Enugu State
               </p>
             </div>

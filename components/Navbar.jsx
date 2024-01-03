@@ -3,6 +3,8 @@ import { menuData } from "@/data/data";
 import Link from "next/link";
 import { useEffect } from "react";
 import { CaretDown, List, XCircle } from "phosphor-react";
+import Image from "next/image";
+import BlackLogo from "../public/images/black-engis-logo.svg";
 
 const Navbar = () => {
   useEffect(() => {
@@ -32,7 +34,7 @@ const Navbar = () => {
         <div className="container-fluid navbar-container">
           <div className="d-flex align-items-center">
             <Link className="navbar-brand" href="/">
-              <h1>ENGIS</h1>
+              <Image src={BlackLogo} alt="engis logo" width={150} />
             </Link>
           </div>
 

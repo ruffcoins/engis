@@ -44,7 +44,7 @@ const Hero = () => {
                   style={{ color: "white" }}
                 >
                   Transforming Enugu&rsquo;s Landscape through Geographic
-                  Information Systems
+                  Information Services
                 </p>
               </div>
 

@@ -2,6 +2,9 @@
 import Link from "next/link";
 import React from "react";
 import { useEffect } from "react";
+import Image from "next/image";
+import BlackLogo from "../public/images/black-engis-logo.svg";
+
 const Footer = () => {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -15,7 +18,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Link className="navbar-brand" href="/">
-                    <h1>ENGIS</h1>
+                    <Image src={BlackLogo} alt="engis logo" width={250} />
                   </Link>
                 </div>
                 <div className="footer-address">
@@ -110,7 +113,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Link className="navbar-brand" href="/">
-                    <h1>ENGIS</h1>
+                    <Image src={BlackLogo} alt="engis logo" width={250} />
                   </Link>
                 </div>
                 <div className="footer-address">
@@ -207,7 +210,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Link className="navbar-brand" href="/">
-                    <h1>ENGIS</h1>
+                    <Image src={BlackLogo} alt="engis logo" width={250} />
                   </Link>
                 </div>
               </div>
