@@ -15,7 +15,7 @@ export const metadata = {
     type: "website",
     title: "ENGIS",
     description: "Enugu State Geographic Information Services",
-    image: "https://engis.com.ng/images/social-share.jpg",
+    image: "https://engis.com.ng/images/social-share.png",
   },
   twitter: {
     card: "summary_large_image",
@@ -23,7 +23,7 @@ export const metadata = {
     url: "https://engis.com.ng",
     title: "ENGIS",
     description: "Enugu State Geographic Information Services",
-    image: "https://engis.com.ng/images/social-share.jpg",
+    image: "https://engis.com.ng/images/social-share.png",
   },
 };
 
