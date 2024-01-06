@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { useEffect } from "react";
 import Image from "next/image";
-import BlackLogo from "../public/images/black-engis-logo.svg";
+import BlackLogo from "../public/images/black-engis-logo.png";
 
 const Footer = () => {
   useEffect(() => {

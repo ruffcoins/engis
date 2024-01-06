@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { CaretDown, List, XCircle } from "phosphor-react";
 import Image from "next/image";
-import BlackLogo from "../public/images/black-engis-logo.svg";
+import BlackLogo from "../public/images/black-engis-logo.png";
 
 const Navbar = () => {
   useEffect(() => {
