@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { useEffect } from "react";
 import Image from "next/image";
-import BlackLogo from "../public/images/black-engis-logo.png";
+import Logo from "../public/images/logo.svg";
 
 const Footer = () => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Link className="navbar-brand" href="/">
-                    <Image src={BlackLogo} alt="engis logo" width={250} />
+                    <Image src={Logo} alt="engis logo" width={250} />
                   </Link>
                 </div>
                 <div className="footer-address">
@@ -113,7 +113,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Link className="navbar-brand" href="/">
-                    <Image src={BlackLogo} alt="engis logo" width={250} />
+                    <Image src={Logo} alt="engis logo" width={250} />
                   </Link>
                 </div>
                 <div className="footer-address">
@@ -210,7 +210,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Link className="navbar-brand" href="/">
-                    <Image src={BlackLogo} alt="engis logo" width={250} />
+                    <Image src={Logo} alt="engis logo" width={250} />
                   </Link>
                 </div>
               </div>
