@@ -39,25 +39,6 @@ export default function Home() {
           property="twitter:image"
           content="https://engis.com.ng/images/social-share.png"
         />
-
-        {/* <title>{metadata.title}</title>
-        <meta property="openGraph:title" content={metadata.openGraph.title} />
-        <meta
-          property="openGraph:description"
-          content={metadata.openGraph.description}
-        />
-        <meta property="openGraph:image" content={metadata.openGraph.image} />
-        <meta property="openGraph:url" content={metadata.openGraph.url} />
-        <meta property="openGraph:type" content={metadata.openGraph.type} />
-        <meta name="twitter:card" content={metadata.twitter.card} />
-        <meta name="twitter:domain" content={metadata.twitter.domain} />
-        <meta name="twitter:url" content={metadata.twitter.url} />
-        <meta name="twitter:title" content={metadata.twitter.title} />
-        <meta
-          name="twitter:description"
-          content={metadata.twitter.description}
-        />
-        <meta property="twitter:image" content={metadata.twitter.image} /> */}
       </Head>
 
       <Hero />

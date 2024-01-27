@@ -37,53 +37,17 @@ const FeatureTop = () => {
 
       <div className="col-lg-6 order-lg-2 order-1">
         <div className="row">
-          <div className="col-6 ">
-            <div className="feature-grid-image">
-              <Image
-                src="/images/feature/feature1.jpg"
-                height={327}
-                width={284}
-                alt="feature1"
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
-              <Image
-                height={218}
-                width={284}
-                src="/images/feature/feature2.jpg"
-                alt="feature2"
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
-            </div>
-          </div>
-          <div className="col-6">
-            <div className="feature-grid-image">
-              <Image
-                height={218}
-                width={284}
-                src="/images/feature/feature3.jpg"
-                alt="feature3"
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
-              <Image
-                height={327}
-                width={284}
-                src="/images/feature/feature4.jpg"
-                alt="feature4"
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
-            </div>
+          <div className="company-history--thumb">
+            <Image
+              src="/images/feature/peter-mbah.jpeg"
+              alt="peter mbah"
+              width={589}
+              height={537}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
+            />
           </div>
         </div>
       </div>

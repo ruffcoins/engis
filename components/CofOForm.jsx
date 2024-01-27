@@ -53,6 +53,7 @@ const CofOForm = () => {
         dob: "",
       },
     ],
+    companyRegistrationNumber: "",
   };
 
   const validationSchema = Yup.object({
@@ -87,16 +88,18 @@ const CofOForm = () => {
         dob: Yup.string().required("Required"),
       })
     ),
+    companyRegistrationNumber: Yup.string().nullable(),
   });
 
   return (
     <section
-      className="about"
+      className="about py-5"
       style={{
         paddingTop:
           typeof window !== "undefined" && window.innerWidth <= 768
             ? "1rem"
             : "4rem",
+        backgroundColor: "#f9fdff",
       }}
     >
       <motion.div
@@ -122,6 +125,10 @@ const CofOForm = () => {
               return (
                 <Form>
                   <div className="col">
+                    <h4 className="text-decoration-underline my-5">
+                      Personal Details
+                    </h4>
+
                     <div className="row mb-2">
                       <div className="col d-flex flex-column my-lg-0 my-2">
                         {/* Title */}
@@ -139,7 +146,7 @@ const CofOForm = () => {
                           id="title"
                           name="title"
                           placeholder="Enter Title"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="title"
@@ -163,7 +170,7 @@ const CofOForm = () => {
                           id="surname"
                           name="surname"
                           placeholder="Enter Surname"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="surname"
@@ -187,7 +194,7 @@ const CofOForm = () => {
                           id="firstName"
                           name="firstName"
                           placeholder="Enter First Name"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="firstName"
@@ -211,7 +218,7 @@ const CofOForm = () => {
                           id="middleName"
                           name="middleName"
                           placeholder="Enter Middle Name"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="middleName"
@@ -237,7 +244,7 @@ const CofOForm = () => {
                           id="dob"
                           name="dob"
                           placeholder="Enter Date of Birth"
-                          className="p-1"
+                          className="p-1 px-2"
                           type="date"
                         />
                         <ErrorMessage
@@ -263,7 +270,7 @@ const CofOForm = () => {
                           id="age"
                           name="age"
                           placeholder="Enter Age"
-                          className="p-1"
+                          className="p-1 px-2"
                           type="number"
                         />
                         <ErrorMessage
@@ -288,7 +295,7 @@ const CofOForm = () => {
                           id="sex"
                           name="sex"
                           placeholder="Enter Sex"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="sex"
@@ -312,7 +319,7 @@ const CofOForm = () => {
                           id="nationality"
                           name="nationality"
                           placeholder="Enter nationality"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="nationality"
@@ -338,7 +345,7 @@ const CofOForm = () => {
                           id="residentialAddress"
                           name="residentialAddress"
                           placeholder="Enter Residential Address"
-                          className="p-1"
+                          className="p-1 px-2"
                           type="residentialAddress"
                         />
                         <ErrorMessage
@@ -364,7 +371,7 @@ const CofOForm = () => {
                           id="postalAddress"
                           name="postalAddress"
                           placeholder="Enter Postal Address"
-                          className="p-1"
+                          className="p-1 px-2"
                           type="address"
                         />
                         <ErrorMessage
@@ -390,7 +397,7 @@ const CofOForm = () => {
                           id="phone"
                           name="phone"
                           placeholder="Enter Phone Number"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="phone"
@@ -414,7 +421,7 @@ const CofOForm = () => {
                           id="lga"
                           name="lga"
                           placeholder="Enter LGA"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="lga"
@@ -440,7 +447,7 @@ const CofOForm = () => {
                           id="town"
                           name="town"
                           placeholder="Enter Town"
-                          className="p-1"
+                          className="p-1 px-2"
                           type="address"
                         />
                         <ErrorMessage
@@ -466,7 +473,7 @@ const CofOForm = () => {
                           id="occupation"
                           name="occupation"
                           placeholder="Enter Occupation"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="occupation"
@@ -490,7 +497,7 @@ const CofOForm = () => {
                           id="townLayout"
                           name="townLayout"
                           placeholder="Enter Town and Layout"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="townLayout"
@@ -517,7 +524,7 @@ const CofOForm = () => {
                           id="landOwnerName"
                           name="landOwnerName"
                           placeholder="Enter Land Owner Name"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="landOwnerName"
@@ -542,7 +549,7 @@ const CofOForm = () => {
                           id="landOwnerAddress"
                           name="landOwnerAddress"
                           placeholder="Enter Land Owner Address"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="landOwnerAddress"
@@ -566,7 +573,7 @@ const CofOForm = () => {
                           id="landDescription"
                           name="landDescription"
                           placeholder="Enter Land Description"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="landDescription"
@@ -596,7 +603,7 @@ const CofOForm = () => {
                           id="occupancyType"
                           name="occupancyType"
                           placeholder="Enter Occupancy Type"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="occupancyType"
@@ -625,7 +632,7 @@ const CofOForm = () => {
                           id="landPurpose"
                           name="landPurpose"
                           placeholder="Enter Land Purpose"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="landPurpose"
@@ -650,7 +657,7 @@ const CofOForm = () => {
                           id="leaseLength"
                           name="leaseLength"
                           placeholder="Enter Length of Lease"
-                          className="p-1"
+                          className="p-1 px-2"
                         />
                         <ErrorMessage
                           name="leaseLength"
@@ -660,10 +667,138 @@ const CofOForm = () => {
                       </div>
                     </div>
 
+                    <h4 className="text-decoration-underline my-5">
+                      For Companies and Organisations (If Applicable)
+                    </h4>
+
+                    <div className="row mb-2">
+                      <div className="col d-flex flex-column my-lg-0 my-2">
+                        {/* Company Registration Number */}
+                        <label
+                          htmlFor="companyRegistrationNumber"
+                          className="font-weight-bold"
+                          style={{ fontWeight: "bold", fontSize: "0.9rem" }}
+                        >
+                          Company Registration Number{" "}
+                          <span style={{ color: "red", fontSize: "0.75rem" }}>
+                            *
+                          </span>
+                        </label>
+                        <Field
+                          id="companyRegistrationNumber"
+                          name="companyRegistrationNumber"
+                          placeholder="Enter Registration Number"
+                          className="p-1 px-2"
+                        />
+                      </div>
+
+                      <div className="col d-flex flex-column my-lg-0 my-2">
+                        {/* Company Registration Year */}
+                        <label
+                          htmlFor="companyRegistrationYear"
+                          className="font-weight-bold"
+                          style={{ fontWeight: "bold", fontSize: "0.9rem" }}
+                        >
+                          Company Registration Year{" "}
+                          <span style={{ color: "red", fontSize: "0.75rem" }}>
+                            *
+                          </span>
+                        </label>
+                        <Field
+                          id="companyRegistrationYear"
+                          name="companyRegistrationYear"
+                          placeholder="Enter Registration Year"
+                          className="p-1 px-2"
+                        />
+                      </div>
+
+                      <div className="col d-flex flex-column my-lg-0 my-2">
+                        {/* Registered Head Office */}
+                        <label
+                          htmlFor="registeredHeadOffice"
+                          className="font-weight-bold"
+                          style={{ fontWeight: "bold", fontSize: "0.9rem" }}
+                        >
+                          Registered Head Office{" "}
+                          <span style={{ color: "red", fontSize: "0.75rem" }}>
+                            *
+                          </span>
+                        </label>
+                        <Field
+                          id="registeredHeadOffice"
+                          name="registeredHeadOffice"
+                          placeholder="Enter Address"
+                          className="p-1 px-2"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="row mb-2">
+                      <div className="col d-flex flex-column my-lg-0 my-2">
+                        {/* Company Name */}
+                        <label
+                          htmlFor="companyName"
+                          className="font-weight-bold"
+                          style={{ fontWeight: "bold", fontSize: "0.9rem" }}
+                        >
+                          Company Name{" "}
+                          <span style={{ color: "red", fontSize: "0.75rem" }}>
+                            *
+                          </span>
+                        </label>
+                        <Field
+                          id="companyName"
+                          name="companyName"
+                          placeholder="Enter Company Name"
+                          className="p-1 px-2"
+                        />
+                      </div>
+
+                      <div className="col d-flex flex-column my-lg-0 my-2">
+                        {/* Company Registration Year */}
+                        <label
+                          htmlFor="companyRegistrationYear"
+                          className="font-weight-bold"
+                          style={{ fontWeight: "bold", fontSize: "0.9rem" }}
+                        >
+                          Company Registration Year{" "}
+                          <span style={{ color: "red", fontSize: "0.75rem" }}>
+                            *
+                          </span>
+                        </label>
+                        <Field
+                          id="companyRegistrationYear"
+                          name="companyRegistrationYear"
+                          placeholder="Enter Registration Year"
+                          className="p-1 px-2"
+                        />
+                      </div>
+
+                      <div className="col d-flex flex-column my-lg-0 my-2">
+                        {/* Registered Head Office */}
+                        <label
+                          htmlFor="registeredHeadOffice"
+                          className="font-weight-bold"
+                          style={{ fontWeight: "bold", fontSize: "0.9rem" }}
+                        >
+                          Registered Head Office{" "}
+                          <span style={{ color: "red", fontSize: "0.75rem" }}>
+                            *
+                          </span>
+                        </label>
+                        <Field
+                          id="registeredHeadOffice"
+                          name="registeredHeadOffice"
+                          placeholder="Enter Address"
+                          className="p-1 px-2"
+                        />
+                      </div>
+                    </div>
+
                     <button
                       type="submit"
                       className="btn btn-primary mt-4"
-                      // disabled={isSubmitting || Object.keys(errors).length > 0}
+                      disabled={isSubmitting || Object.keys(errors).length > 0}
                     >
                       Submit
                     </button>

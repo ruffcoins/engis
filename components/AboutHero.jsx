@@ -32,7 +32,7 @@ const AboutHero = () => {
             <div className="about-thumbs">
               <div className="about-thumbs-item grid-col-span-2 order-1 order-sm-1">
                 <Image
-                  src="/images/about/about1.jpg"
+                  src="/images/about/4.jpg"
                   alt="about"
                   height={400}
                   width={792}
@@ -44,7 +44,7 @@ const AboutHero = () => {
               </div>
               <div className="about-thumbs-item order-3 order-sm-2">
                 <Image
-                  src="/images/about/about2.jpg"
+                  src="/images/about/about3.jpg"
                   alt="about"
                   height={400}
                   width={384}
@@ -56,19 +56,19 @@ const AboutHero = () => {
               </div>
               <div className="about-thumbs-item order-4 order-sm-3">
                 <Image
-                  src="/images/about/about3.jpg"
+                  src="/images/about/2.jpg"
                   alt="about"
                   height={400}
                   width={384}
                   style={{
                     maxWidth: "100%",
-                    height: "auto",
+                    height: "110%",
                   }}
                 />
               </div>
               <div className="about-thumbs-item grid-col-span-2 oreder-2 order-sm-4">
                 <Image
-                  src="/images/about/about4.jpg"
+                  src="/images/about/14.jpg"
                   alt="about"
                   height={400}
                   width={792}

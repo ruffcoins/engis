@@ -1,7 +1,6 @@
 "use client";
 import useAnimation from "@/hooks/useAnimation";
 import Image from "next/image";
-import { CheckCircle } from "phosphor-react";
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 
@@ -25,7 +24,7 @@ const FeatureBottom = () => {
           <Image
             height={589}
             width={537}
-            src="/images/feature/feature5.jpg"
+            src="/images/feature/1.jpg"
             alt="feature5"
             style={{
               maxWidth: "100%",
