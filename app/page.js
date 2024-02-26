@@ -2,8 +2,6 @@
 import Counter from "@/components/Counter";
 import Feature from "@/components/Feature";
 import Hero from "@/components/Hero";
-// import PropertiesArea from "@/components/PropertiesArea";
-// import Testimonial from "@/components/Testimonial";
 import WorkArea from "@/components/WorkArea";
 import Head from "next/head";
 

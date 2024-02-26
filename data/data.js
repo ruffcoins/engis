@@ -24,23 +24,28 @@ export const menuData = [
   },
   {
     id: 3,
+    parent: "PIS",
+    link: "/pis",
+  },
+  {
+    id: 4,
     parent: "Services",
     megamenu: false,
     children: [
       {
-        id: 3.1,
+        id: 4.1,
         parent: "LUAC Affidavit Form",
         link: "/services/luac-affidavit",
       },
       {
-        id: 3.2,
+        id: 4.2,
         parent: "C of O Application",
         link: "/services/cofo-application",
       },
     ],
   },
   {
-    id: 4,
+    id: 5,
     parent: "Resources",
     link: "/resources",
   },
