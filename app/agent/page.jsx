@@ -9,7 +9,7 @@ import { CaretDown, MagnifyingGlass } from "phosphor-react";
 import { useState } from "react";
 
 const AgentList = () => {
-  useTitle("Agent List || RealStatic");
+  useTitle("Agent List || ENGIS");
   const [agentData, setAgentData] = useState([...agentInformationData]);
   const [originalAgentData] = useState([...agentInformationData]);
   const [search, setSearch] = useState("");

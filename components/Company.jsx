@@ -64,7 +64,7 @@ const Company = () => {
                 <li>
                   <div className="company-history--details">
                     {/* <h6>
-                      RealStatic holds its initial public offering in 2008
+                      ENGIS holds its initial public offering in 2008
                     </h6> */}
                     <p>
                       These various titles including C of O&rsquo;s are endorsed

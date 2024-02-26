@@ -1,13 +1,13 @@
 import PropertyPagination from "@/components/PropertyPagination";
 import PropertyMapInfo from "@/components/PropertyMapInfo";
 import PropertySlider from "@/components/PropertySlider";
-import {propertiesData} from "@/data/data";
-import {StarIcon, Arrow, PhoneIcon, EnvelopeIcon} from "@/data/svgImages";
+import { propertiesData } from "@/data/data";
+import { StarIcon, Arrow, PhoneIcon, EnvelopeIcon } from "@/data/svgImages";
 import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Property Details | RealStatic",
+  title: "Property Details | ENGIS",
 };
 
 export const generateStaticParams = async () => {
@@ -16,20 +16,16 @@ export const generateStaticParams = async () => {
   }));
 };
 
-const page = ({params}) => {
-  const property = propertiesData.find((property) => property.id === +params.id);
-  const {features, agentInfo} = property;
+const page = ({ params }) => {
+  const property = propertiesData.find(
+    (property) => property.id === +params.id
+  );
+  const { features, agentInfo } = property;
 
   return (
-    <section
-      className="property-details"
-      id="property-details"
-    >
+    <section className="property-details" id="property-details">
       <div className="property-details-bottom-bar d-lg-none d-block position-fixed">
-        <button
-          type="button"
-          className="btn btn-large"
-        >
+        <button type="button" className="btn btn-large">
           Request for Visit
         </button>
       </div>
@@ -50,11 +46,10 @@ const page = ({params}) => {
                     name="options"
                     id="option1"
                   />
-                  <label
-                    className="property-price-payment"
-                    htmlFor="option1"
-                  >
-                    <span className="price">${property.price.toLocaleString()}</span>
+                  <label className="property-price-payment" htmlFor="option1">
+                    <span className="price">
+                      ${property.price.toLocaleString()}
+                    </span>
                     <span className="time-period">Online / Cash Payment</span>
                   </label>
                 </div>
@@ -65,11 +60,10 @@ const page = ({params}) => {
                     name="options"
                     id="option2"
                   />
-                  <label
-                    className="property-price-payment"
-                    htmlFor="option2"
-                  >
-                    <span className="price">${property.monthlyPayment.toLocaleString()} / month</span>
+                  <label className="property-price-payment" htmlFor="option2">
+                    <span className="price">
+                      ${property.monthlyPayment.toLocaleString()} / month
+                    </span>
                     <span className="time-period">0% EMI for 6 Months</span>
                   </label>
                 </div>
@@ -86,11 +80,17 @@ const page = ({params}) => {
                 <div className="col-sm-6">
                   <dl className="row">
                     <dt className="col-md-4 col-6">Parking</dt>
-                    <dd className="col-md-8 col-6">{features.parking ? "Yes" : "No Info"}</dd>
+                    <dd className="col-md-8 col-6">
+                      {features.parking ? "Yes" : "No Info"}
+                    </dd>
                     <dt className="col-md-4 col-6">Outdoor</dt>
-                    <dd className="col-md-8 col-6">{features.outdoor ? "Yes" : "No Info"}</dd>
+                    <dd className="col-md-8 col-6">
+                      {features.outdoor ? "Yes" : "No Info"}
+                    </dd>
                     <dt className="col-md-4 col-6">A/C</dt>
-                    <dd className="col-md-8 col-6">{features.ac ? "Yes" : "No Info"}</dd>
+                    <dd className="col-md-8 col-6">
+                      {features.ac ? "Yes" : "No Info"}
+                    </dd>
                     <dt className="col-md-4 col-6">Year Built</dt>
                     <dd className="col-md-8 col-6">{features.buildYear}</dd>
                   </dl>
@@ -98,11 +98,15 @@ const page = ({params}) => {
                 <div className="col-sm-6">
                   <dl className="row">
                     <dt className="col-md-4 col-6">HOA</dt>
-                    <dd className="col-md-8 col-6">{features.hoa ? "Yes" : "No Info"}</dd>
+                    <dd className="col-md-8 col-6">
+                      {features.hoa ? "Yes" : "No Info"}
+                    </dd>
                     <dt className="col-md-4 col-6">Price/Sqft</dt>
                     <dd className="col-md-8 col-6">${features.persqftprice}</dd>
                     <dt className="col-md-4 col-6">Listed</dt>
-                    <dd className="col-md-8 col-6">{features.listed ? "Yes" : "No Info"}</dd>
+                    <dd className="col-md-8 col-6">
+                      {features.listed ? "Yes" : "No Info"}
+                    </dd>
                   </dl>
                 </div>
               </div>
@@ -116,7 +120,7 @@ const page = ({params}) => {
                     alt="agent"
                     height={183}
                     width={183}
-                    style={{maxWidth: "100%", height: "auto"}}
+                    style={{ maxWidth: "100%", height: "auto" }}
                   />
                 </div>
                 <div className="property-details-agent-content-name">
@@ -201,10 +205,7 @@ const page = ({params}) => {
                   <span className="input-group-text">
                     <i className="ph-calendar" />
                   </span>
-                  <input
-                    type="date"
-                    className="form-control"
-                  />
+                  <input type="date" className="form-control" />
                 </div>
                 <div className="input-group">
                   <textarea
@@ -216,10 +217,7 @@ const page = ({params}) => {
                   />
                 </div>
                 <div className="w-100 contact-form-button">
-                  <button
-                    type="submit"
-                    className="btn btn-large d-block w-100"
-                  >
+                  <button type="submit" className="btn btn-large d-block w-100">
                     Send Request
                   </button>
                 </div>

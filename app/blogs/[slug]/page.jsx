@@ -14,7 +14,7 @@ export const generateStaticParams = async () => {
 };
 
 export const metadata = {
-  title: "Blog Deatils || RealStatic",
+  title: "Blog Details || ENGIS",
 };
 
 const SingleBlog = (props) => {

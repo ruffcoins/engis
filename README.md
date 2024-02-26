@@ -1,6 +1,6 @@
-# Realstatic
+# Engis
 
-Realstatic Nextjs Theme Development Structure.
+Enugu State Geographic Information Service
 
 ## Getting Started
 
@@ -12,5 +12,3 @@ Realstatic Nextjs Theme Development Structure.
 4. After successfully installed all require modules, run **npm run dev** or **yarn dev** to run the project. this will create a dist folder, where all the developed file will remain.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-`Note`: For more details, read the full documenation [here](https://docs.staticmania.com/realstatic/nextjs/introduction).

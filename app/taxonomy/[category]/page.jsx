@@ -9,13 +9,17 @@ export const generateStaticParams = async () => {
 };
 
 export const metadata = {
-  title: "Blog Taxonomy | RealStatic",
+  title: "Blog Taxonomy | ENGIS",
 };
 
-const page = ({params}) => {
+const page = ({ params }) => {
   const blogs = getMarkDownData("data/blogs");
-  const decodedCategory = decodeURIComponent(params.category.replace(/%20/g, " "));
-  const relatedBlog = blogs.filter((blog) => blog.data.category === decodedCategory);
+  const decodedCategory = decodeURIComponent(
+    params.category.replace(/%20/g, " ")
+  );
+  const relatedBlog = blogs.filter(
+    (blog) => blog.data.category === decodedCategory
+  );
 
   return (
     <section className="filter blog-filter">
