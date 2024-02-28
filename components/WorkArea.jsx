@@ -41,7 +41,10 @@ const WorkArea = () => {
             <div className="work-area--service">
               <div
                 className="work-area--service--items order-2 order-md-1"
-                style={{ padding: "2.5rem 4rem 2.5rem 2.5rem" }}
+                style={{
+                  padding: "2.5rem 4rem 2.5rem 2.5rem",
+                  textAlign: "start",
+                }}
               >
                 <h3 style={{ marginBottom: "1rem" }}>
                   Locate Land Ownership Documents
