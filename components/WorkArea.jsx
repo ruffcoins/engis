@@ -1,10 +1,4 @@
 "use client";
-import {
-  EnjoyIcon,
-  GetIcon,
-  SearchLocation,
-  VisitIcon,
-} from "@/data/svgImages";
 import useAnimation from "@/hooks/useAnimation";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -26,35 +20,44 @@ const WorkArea = () => {
     >
       <div className="container">
         <div className="row g-3">
-          <div className="col-xl-6 col-lg-5">
+          <div className="col-xl-6 col-lg-6">
             <div className="work-area--card">
-              <h3>Simple &amp; easy way to find and register your lands</h3>
+              <h3>Pay your land use charge (property tax)</h3>
               <p>
-                Streamlining land and property transactions for a hassle-free
-                experience
+                Effectively manage your property taxes, providing you with a
+                user-friendly platform that simplifies the process of making
+                payments, viewing your tax history.
               </p>
-              <Link href="/services/cofo-application" className="btn btn-small">
-                Get Started
+              <Link
+                href="https://main.d36zlokqx4vi02.amplifyapp.com/"
+                className="btn btn-small"
+                target="blank"
+              >
+                Visit PIS Website
               </Link>
             </div>
           </div>
-          <div className="col-xl-6 col-lg-7">
-            <div className="d-grid work-area--service">
-              <div className="work-area--service--items order-2 order-md-1">
-                <SearchLocation />
-                <h4>Find the right application forms</h4>
-              </div>
-              <div className="work-area--service--items order-1 order-md-2">
-                <VisitIcon />
-                <h4>Explore GIS data</h4>
-              </div>
-              <div className="work-area--service--items order-4 order-md-3">
-                <GetIcon />
-                <h4>Get 24/7 support</h4>
-              </div>
-              <div className="work-area--service--items order-3 order-md-4">
-                <EnjoyIcon />
-                <h4>Attain land legitimacy</h4>
+          <div className="col-xl-6 col-lg-6">
+            <div className="work-area--service">
+              <div
+                className="work-area--service--items order-2 order-md-1"
+                style={{ padding: "2.5rem 4rem 2.5rem 2.5rem" }}
+              >
+                <h3 style={{ marginBottom: "1rem" }}>
+                  Locate Land Ownership Documents
+                </h3>
+                <p style={{ marginBottom: "3.125rem" }}>
+                  Make enquiries, search land documentation, surveys and land
+                  parcels to facilitate the ease of filing and retrieval of land
+                  ownership records.
+                </p>
+                <Link
+                  href="#"
+                  className="btn btn-small"
+                  style={{ marginBottom: "3.125rem" }}
+                >
+                  Visit LIS Website
+                </Link>
               </div>
             </div>
           </div>

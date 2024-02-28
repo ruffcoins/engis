@@ -1,4 +1,3 @@
-// import BlopenGraphArea from "@/components/BlopenGraphArea";
 import Counter from "@/components/Counter";
 import Feature from "@/components/Feature";
 import Hero from "@/components/Hero";
@@ -42,10 +41,7 @@ export default function Home() {
       <Hero />
       <WorkArea />
       <Counter />
-      {/* <PropertiesArea /> */}
       <Feature />
-      {/* <Testimonial /> */}
-      {/* <BlopenGraphArea /> */}
     </>
   );
 }

@@ -1,5 +1,5 @@
 "use client";
-import {Manrope} from "next/font/google";
+import { Manrope } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LogIn from "@/components/Login";
@@ -18,13 +18,10 @@ const manrope = Manrope({
   variable: "--font-manrope",
 });
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        suppressHydrationWarning={true}
-        className={manrope.className}
-      >
+      <body suppressHydrationWarning={true} className={manrope.className}>
         <Navbar />
         <main>{children}</main>
         <Footer />
